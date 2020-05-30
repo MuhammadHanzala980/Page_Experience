@@ -20,8 +20,6 @@ import SignUp from './page/Signup/SignUp';
 import ContentPage from './Pages/ContentPage/ContentPage'
 import { getMyInfoAction, getMyJournalsAction } from './store/actions';
 
-import Imgcrop from './components-no-duplication/ImageCrop/imageCropper'
-
 const App = ({ history, myInfo, getMyInfo, getMyJournals }) => {
   useEffect(() => {
     console.log('app.js useEffect');
@@ -38,100 +36,97 @@ const App = ({ history, myInfo, getMyInfo, getMyJournals }) => {
   console.log('re-render app');
   return (
     <div className="App">
-      {/* <Imgcrop /> */}
       <ModalContainer />
       <ToastContainer />
-      <MyProfile />
-      {/* <Router history={history}>
-            {isAuthenticated ? (
+      <Router history={history}>
+        {isAuthenticated ? (
           <>
             <NavBar />
 
-                <Switch>
-                    <Route
-                      exact
-                      path="/" component={Home}
-                    />
-                    <Route
-                      push
-                      exact
-                      path="/artform/:artform"
-                      component={Home}
-                    />
-                    <Route
-                      push
-                      exact
-                      path="/trending/:trend"
-                      component={Home}
-                    />
-                    <Route
-                      push
-                      exact
-                      path="/home"
-                      component={Home}
-                    />
-                    <Route
-                      push
-                      exact
-                      path="/content/:contentId"
-                      component={ContentPage}
-                    />
-                    <Route
-                      push
-                      exact
-                      path="/old-content/:article"
-                      component={OldContent}
-                    />
-                    <Route push exact path="/journals/" component={Journals} />
-                    <Route
-                      push
-                      exact
-                      path="/notifications/"
-                      component={Notifications}
-                    />
-                    <Route push exact path="/search/:data" component={Search} />
-                    <Route push exact path="/search/" component={Search} />
-                    <Route
-                      push
-                      exact
-                      path="/user-profile"
-                      component={() => (
-                          <MyProfile />
-                      )}
-                    />
-                    <Route
-                      path="/user/:id"
-                      component={Profile} />
-                    />
-                    <Route
-                      path="/explore"
-                      component={Explore} />
-                    />
-                    <Route
-                      path="*"
-                      component={() =>
-                        <Redirect to={{ pathname: '/' }}/>
-                      }
-                    />
-                </Switch>
-            </>
-            )
-            :
-            (
             <Switch>
-            <Route push exact path="/login" component={Login} />
-            <Route push exact path="/signup/" component={SignUp} />
-            <Route
+              <Route
+                exact
+                path="/" component={Home}
+              />
+              <Route
+                push
+                exact
+                path="/artform/:artform"
+                component={Home}
+              />
+              <Route
+                push
+                exact
+                path="/trending/:trend"
+                component={Home}
+              />
+              <Route
+                push
+                exact
+                path="/home"
+                component={Home}
+              />
+              <Route
+                push
+                exact
+                path="/content/:contentId"
+                component={ContentPage}
+              />
+              <Route
+                push
+                exact
+                path="/old-content/:article"
+                component={OldContent}
+              />
+              <Route push exact path="/journals/" component={Journals} />
+              <Route
+                push
+                exact
+                path="/notifications/"
+                component={Notifications}
+              />
+              <Route push exact path="/search/:data" component={Search} />
+              <Route push exact path="/search/" component={Search} />
+              <Route
+                push
+                exact
+                path="/user-profile"
+                component={() => (
+                  <MyProfile />
+                )}
+              />
+              <Route
+                path="/user/:id"
+                component={Profile} />
+                    />
+                    <Route
+                path="/explore"
+                component={Explore} />
+                    />
+                    <Route
                 path="*"
                 component={() =>
-                  <Redirect to={{ pathname: '/login' }}/>
+                  <Redirect to={{ pathname: '/' }} />
                 }
               />
             </Switch>
-            )
-            }
-        </Router>
-    */}
+          </>
+        )
+          :
+          (
+            <Switch>
+              <Route push exact path="/login" component={Login} />
+              <Route push exact path="/signup/" component={SignUp} />
+              <Route
+                path="*"
+                component={() =>
+                  <Redirect to={{ pathname: '/login' }} />
+                }
+              />
+            </Switch>
+          )
+        }
+      </Router>
     </div>
 
   );
