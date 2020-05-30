@@ -1,0 +1,47 @@
+@import "../../Utils/mediaQueryManager.scss";
+
+.auth-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form-group {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 1rem;
+  @include respond(sm) {
+    width: 100%;
+  }
+}
+.form-control {
+  background: #f1f1f1 0% 0% no-repeat padding-box !important;
+
+}
+.create-acc-link {
+  font-size: 12px;
+  text-align: center;
+}
+
+.form-section {
+  margin: 50px 50px;
+}
+.custom-file-label::after {
+  display: none !important;
+}
+.upload-icon {
+  float: right;
+  position: relative;
+  left: 55px;
+  top: -7px;
+  padding: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.user-icon {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.modal-wrapper-div .modal-header {
+  justify-content: center;
+}

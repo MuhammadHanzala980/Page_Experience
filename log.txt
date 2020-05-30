@@ -1,0 +1,840 @@
+commit 1b6403383c950376455214ecf1b4947e0f957567
+Merge: 4c758a4 894e503
+Author: G22_DEV <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 15 19:59:17 2020 +0000
+
+    Merge branch 'revert-4c758a43' into 'master'
+    
+    Revert "Merge branch 'develop_subscribe' into 'master'"
+    
+    See merge request page-x/pagex_web!12
+
+commit 894e503b7c463f49d019ef7b85bcfc5f569a86f7
+Author: G22_DEV <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 15 19:58:47 2020 +0000
+
+    Revert "Merge branch 'develop_subscribe' into 'master'"
+    
+    This reverts merge request !9
+
+commit 4c758a43d65831377e2a7b8247a84e2c6bc45944
+Merge: 011ba08 6a44dad
+Author: G22_DEV <khelf_mohamed@yahoo.fr>
+Date:   Tue Apr 14 22:39:59 2020 +0000
+
+    Merge branch 'develop_subscribe' into 'master'
+    
+    Develop subscribe
+    
+    See merge request page-x/pagex_web!9
+
+commit 6a44dad21393b24aae57ec95491810368b995365
+Merge: 7362a71 011ba08
+Author: mnaguib <mnaguib.ta@gmail.com>
+Date:   Wed Apr 15 00:18:30 2020 +0200
+
+    Merge branch 'master' of https://gitlab.com/page-x/pagex_web into develop_subscribe
+
+commit 011ba08b6ad76796ecace5a712d363b44f0a002c
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Tue Apr 14 23:14:13 2020 +0100
+
+    open/close modal in users / user-profie
+
+commit 7362a71f498f27a026b3b04a20a7c5c40e22a995
+Merge: 3a17d9e e236a95
+Author: mnaguib <mnaguib.ta@gmail.com>
+Date:   Tue Apr 14 23:39:05 2020 +0200
+
+    Merge branch 'master' of https://gitlab.com/page-x/pagex_web into develop_subscribe
+
+commit 3a17d9e136773e3c9b527a7e93845853da245be8
+Merge: 872ce28 eff1642
+Author: mnaguib <mnaguib.ta@gmail.com>
+Date:   Tue Apr 14 23:18:18 2020 +0200
+
+    integrate subscripe , unsubscripe and subscribe status api in userpage and explore
+
+commit e236a95731897d6642d68d69b5a27b540998a606
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Tue Apr 14 21:11:25 2020 +0100
+
+    add picture viewer
+
+commit eff1642ad75bcb2154ba48e63dc39e88488666b9
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Tue Apr 14 18:56:02 2020 +0100
+
+    aspect ration fix
+
+commit c863dc62b4ae6101174f93436528028b8de32be9
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Tue Apr 14 18:10:08 2020 +0100
+
+    aspect ration 'shapes'
+
+commit 9620d586878654b1fd8f4b366d4ff5c1e741a6ff
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Tue Apr 14 16:53:58 2020 +0100
+
+    set zoom
+
+commit d81e4b32c97406835e9375492307c860918a3933
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Tue Apr 14 16:18:10 2020 +0100
+
+    crop tool
+
+commit 54855e46aa83ac84af23daae3c7f1ffffc81281b
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Tue Apr 14 16:06:38 2020 +0100
+
+    crop tool contrib
+
+commit e512cfe9da758eba0d4bc4a8de9bfdc6101b1174
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Mon Apr 13 23:14:58 2020 +0100
+
+    fix explore page
+
+commit f74e6373eb12d40c280fb4694487dca1a62a177b
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Mon Apr 13 22:17:35 2020 +0100
+
+    fix style
+
+commit a429eca5196186f30872c4c36408bdf6bd0f6fa3
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Mon Apr 13 22:07:35 2020 +0100
+
+    explore page
+
+commit e9bbcd0c2efc046e464007da4758f6cc9eb6f012
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Mon Apr 13 19:06:42 2020 +0100
+
+    add croping tool
+
+commit f431ecc7924e588273b27a8d7fc8cc34a8011faa
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sun Apr 12 22:11:32 2020 +0100
+
+    favicon - logo
+
+commit 07eb9e9475d954f2dea1bdec3aa67047097e0b82
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sun Apr 12 21:25:32 2020 +0100
+
+    remove testing login
+
+commit 52544f78a524ca1419ee7b1bc410d65b831dd5f1
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sun Apr 12 21:11:52 2020 +0100
+
+    users profile
+
+commit 35485fafe1f844e497db170eb0943304ec7b8f31
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sun Apr 12 20:16:10 2020 +0100
+
+    refactore code
+
+commit 5d413a2e0d59404f013f44c8d234e019f49fbb30
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sun Apr 12 17:43:38 2020 +0100
+
+    remove imageurl confusion
+
+commit 8db75f955478f247b163cf2c36b0102be6985c23
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sun Apr 12 17:28:24 2020 +0100
+
+    profile edit
+
+commit 123f71b40077407c905e18050db966591688186c
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sun Apr 12 16:20:10 2020 +0100
+
+    edit profile
+
+commit cb5c3aff6096d60103cf55a0cac33f3ecd247307
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sun Apr 12 13:52:31 2020 +0100
+
+    update promote
+
+commit 8f5d13058d0ea40013762c9eb8d19c92a42bedea
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sun Apr 12 13:13:52 2020 +0100
+
+    add border
+
+commit 4b53f29a8c59c4a2160ba392318a51afc49ffb83
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sun Apr 12 13:10:13 2020 +0100
+
+    promote
+
+commit cc6d9302d0aad2ef9ef2819f220ad8303f9d15a0
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sun Apr 12 00:20:50 2020 +0100
+
+    first request
+
+commit ec8703f8ee49c421a22e5bdf98f31995c91b1e2d
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sun Apr 12 00:15:33 2020 +0100
+
+    fix image backend confusion by a hack
+
+commit 1f7b335c37f386fea29626c6be9dfdb0da4c0713
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sun Apr 12 00:03:31 2020 +0100
+
+    header - tag filter no case sensitive
+
+commit 05f260b155c0018820641f36ceb608a4a564a370
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sat Apr 11 23:06:45 2020 +0100
+
+    filter by tag
+
+commit 42dc91208ff13f448f5405eb044668d8b20307d2
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sat Apr 11 22:29:30 2020 +0100
+
+    profile page
+
+commit 53219e9330f84523e6af1baca2ee3828a7a6878b
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sat Apr 11 22:29:06 2020 +0100
+
+    user change profile
+
+commit 624cade6faaefcbfe674df24d5f4f63428b71fd3
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sat Apr 11 12:11:53 2020 +0100
+
+    problme with token
+
+commit d4272640d82667d9f0068af3f60503ff33fec23f
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sat Apr 11 01:39:26 2020 +0100
+
+    remove also the icon share
+
+commit 54619c347b7bdde85295a95da6a92e005a09d2a1
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sat Apr 11 01:34:38 2020 +0100
+
+    remove shares
+
+commit 4304ffdb47186bbc370761787b9d0eb347f301d0
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sat Apr 11 01:31:12 2020 +0100
+
+    remove number of shows
+
+commit 08846f6038078a1b732e25736fc1bab1f6f8cc17
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Sat Apr 11 01:26:20 2020 +0100
+
+    edit bug fix
+
+commit d265ce106182b6a1b7fac270b2fd9cc8b399c49b
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Fri Apr 10 22:49:27 2020 +0100
+
+    change style
+
+commit 220075390a155cab42293c10259173283913de40
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Fri Apr 10 18:36:06 2020 +0100
+
+    adjust layout
+
+commit 9189f3150edf9c2023221d207a8a6c1de92934c7
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Fri Apr 10 16:16:55 2020 +0100
+
+    before removing edit Profile modal
+
+commit 08a98fc888ee4d97d554bfee49ac00e5ecd8906c
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Fri Apr 10 12:44:22 2020 +0100
+
+    fix style
+
+commit 98e938c04783bce2dc7405edd4f7b08946db36be
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Fri Apr 10 12:40:01 2020 +0100
+
+    react to post
+
+commit f230da5c3407b49de21210a618284a1c996af210
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Fri Apr 10 12:35:11 2020 +0100
+
+    fix promote picture
+
+commit 7547fcfe4d5e6ae472cf9773e8938f466948fd49
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Fri Apr 10 12:32:45 2020 +0100
+
+    fix promote picture
+
+commit d01e66529a55d7f43e374354e001b0636851ee37
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Fri Apr 10 01:56:58 2020 +0100
+
+    remove contribution - fix redux partialy- fix user picture in userpage
+
+commit 7094439ac6c4598cfed44babe6bd11aba1c3fb6a
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Thu Apr 9 23:36:51 2020 +0100
+
+    fix modal stiky
+
+commit c11ac81e1cbe8c4de15c5a401ebd015213ac12f7
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Thu Apr 9 23:01:44 2020 +0100
+
+    refactore - remove duplication
+
+commit 0a7968eb1f299e09deba3a478539b63a8ce9be95
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Thu Apr 9 01:16:37 2020 +0100
+
+    bug  fix
+
+commit 94cbd592d78e2a8f1763955aa9d79e0c431a68d6
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Thu Apr 9 01:00:31 2020 +0100
+
+    bug fix
+
+commit 9ab964840c5083f54cf003035f4b0a82d9905ddc
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Thu Apr 9 00:59:11 2020 +0100
+
+    minor update
+
+commit 8df613818b3de77a6722820049d0165906d2820a
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Thu Apr 9 00:24:28 2020 +0100
+
+    user-page update
+
+commit 42138069b07347b0fc25e949d3659fd272fdff74
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 8 21:16:41 2020 +0100
+
+    refactor contribution
+
+commit 2dfc56fc5bc7a3552bbc47f07cd5af4125f168f9
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 8 20:54:43 2020 +0100
+
+    fix bug promote post
+
+commit 53122a664f944591a0314daabe81d0b27d1ce84f
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 8 20:36:11 2020 +0100
+
+    dispaly tags
+
+commit d36ff82b82d717abb566ed59f9fc7e011d413309
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 8 19:37:35 2020 +0100
+
+     remove warnning
+
+commit c886ea5a06c9f3f997e3ae42b2a786bad6acbd09
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 8 19:35:25 2020 +0100
+
+    publish contrib Image
+
+commit bdd742376814a1ce5340d581a3b41aeca8911357
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 8 18:24:08 2020 +0100
+
+    bug fix
+
+commit 604432da6e4ec496d59d799c621eea1163d8d89d
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 8 18:13:52 2020 +0100
+
+    publich work
+
+commit 672dabb169e477f89b7467ee7118eef54da4818d
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 8 17:49:24 2020 +0100
+
+    image
+
+commit adc35ecfb06241dd1599c4f4bd60dd324357a45c
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 8 17:47:25 2020 +0100
+
+    image
+
+commit 03e29a169eb095a8aa75bf7964994179fe3121da
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 8 17:39:58 2020 +0100
+
+    profile picture
+
+commit 0a2c8d80560d73203f1e7a4a797e5dcb24d05cb0
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 8 17:26:31 2020 +0100
+
+    logout, drop down, login, picture profile
+
+commit b907cd749e5f9b5d3a93f2d4baa8548b782d4e2f
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 8 02:12:12 2020 +0100
+
+    bug fix
+
+commit c4acaf0256f59149e28c1edbad86c7972c4d10d2
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 8 02:10:03 2020 +0100
+
+    fix file upldoad bug
+
+commit a1f5a04fd8585febb56b665533d7a5818336abd0
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Wed Apr 8 02:02:19 2020 +0100
+
+    fix font Roboto - fix userImage
+
+commit fddc52ec64cf4adde6044ca6db5c0c0f2be177c8
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Tue Apr 7 21:20:16 2020 +0100
+
+    close button
+
+commit 1a9e68c9b556ce68ac8da980dd4525e6be775480
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Tue Apr 7 19:21:39 2020 +0100
+
+    fix login
+
+commit 7ccaac67fc9552c4a3d82e4efc853a7ffd343827
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Tue Apr 7 01:00:38 2020 +0100
+
+    bug fix
+
+commit b552246a6115f154b82f08822ab599636993424b
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Mon Apr 6 22:57:20 2020 +0100
+
+    remove debug
+
+commit 872ce281ff921c9364c8801b4f41e07e983222d3
+Author: mnaguib <mnaguib.ta@gmail.com>
+Date:   Mon Apr 6 23:54:38 2020 +0200
+
+    fix useefffect error
+
+commit c344daae9b0ef4393bc19c49f78fac7a38e9ebab
+Author: khelf_mohamed@yahoo.fr <khelf_mohamed@yahoo.fr>
+Date:   Mon Apr 6 22:39:50 2020 +0100
+
+    fix bugs
+
+commit 6323acdb6ca8015bfcf59beda746fec45d837910
+Author: mnaguib <mnaguib.ta@gmail.com>
+Date:   Mon Apr 6 17:48:45 2020 +0200
+
+    react post api integration
+
+commit c6592c516ebb4a4892deb7e3c9298e049e5d6f41
+Author: mnaguib <mnaguib.ta@gmail.com>
+Date:   Mon Apr 6 16:37:55 2020 +0200
+
+    promote post api integration
+
+commit 69fad1804ced9131ede0ffa5bb77b36bedc3b38b
+Author: mnaguib <mnaguib.ta@gmail.com>
+Date:   Mon Apr 6 15:25:50 2020 +0200
+
+    integrate user profile api
+
+commit a5c1d85b33451f2be0241351e94fdfa2716c3ae4
+Author: Paryal <mohammadparyal@hotmail.com>
+Date:   Mon Apr 6 00:24:58 2020 +0400
+
+    fix for state
+
+commit 61ea83fec8ab1c8ee54fafb29ba63f495c83ca42
+Author: Paryal <mohammadparyal@hotmail.com>
+Date:   Sun Apr 5 22:39:22 2020 +0400
+
+    added frontend changes and fixes
+
+commit 13b40350684de4db4013f91d795fc22369bae477
+Author: shinystar <creditcoder@hotmail.com>
+Date:   Wed Apr 1 03:46:55 2020 +0500
+
+    Fix signup
+
+commit c90ae1a6539c7ccb109c22598fba061bc8379172
+Merge: 21a16cb bfc5e4f
+Author: Andrew Bein <abimabimabim123xep@gmail.com>
+Date:   Fri Mar 27 15:04:23 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    update home component with fetch contents
+    
+    See merge request page-x/pagex_web!8
+
+commit bfc5e4f7e4d18f10d6c76a24d1812f1a32c01037
+Author: Andrew Bein <abimabimabim123xep@gmail.com>
+Date:   Fri Mar 27 23:02:51 2020 +0800
+
+    update home component
+
+commit 21a16cbab31462b728f44c846da874bbfdcf4689
+Merge: b7843ca 92cb0cf
+Author: Andrew Bein <abimabimabim123xep@gmail.com>
+Date:   Fri Mar 27 08:15:31 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    add alt property in img tag
+    
+    See merge request page-x/pagex_web!7
+
+commit 92cb0cf85d223dd7010c7b10f02bdcee1434d4df
+Author: Andrew Bein <abimabimabim123xep@gmail.com>
+Date:   Fri Mar 27 16:14:35 2020 +0800
+
+    add alt property in img tag
+
+commit b7843cac513d8b76d39bdbde66e86ab0508193fc
+Merge: f1b2466 6a1a861
+Author: Andrew Bein <abimabimabim123xep@gmail.com>
+Date:   Fri Mar 27 08:09:52 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Add "publish a contribution" and "publish a work"
+    
+    See merge request page-x/pagex_web!6
+
+commit 6a1a861218c5bd19a3449f641a1ec6e4c3f7fd87
+Author: Andrew Bein <abimabimabim123xep@gmail.com>
+Date:   Fri Mar 27 12:41:56 2020 +0800
+
+    complete publish contribution
+
+commit 73b4775644c4105c25e767c9129d99c0978a5c22
+Author: Andrew Bein <abimabimabim123xep@gmail.com>
+Date:   Fri Mar 27 11:43:06 2020 +0800
+
+    complete publishContentWork
+
+commit 774a6f9d4d016f95c11f384b12db1a2dd9413a27
+Author: myvirtualteams1 <myvirtualteams1@gmail.com>
+Date:   Thu Mar 26 17:23:50 2020 +0530
+
+    store update and re-render data
+
+commit aca80a3c9f56461f4f4ff999de50190f66a04d29
+Author: Nael Tee <ntahchi@page-experience.com>
+Date:   Wed Mar 25 13:46:51 2020 +0000
+
+    Revert "clean up sign up page"
+    
+    This reverts commit ded9692f7bcd8d64586865ee57c89aa3bb871739
+
+commit d03a22029003e4b8b53e050bc01cb893637dc29e
+Author: Nael Tee <ntahchi@page-experience.com>
+Date:   Wed Mar 25 13:45:21 2020 +0000
+
+    Revert "account validation update"
+    
+    This reverts commit 3396d0918ad695424cf9f2f2af6ce9e61543390b
+
+commit 3b6668ab4d60148817cd21ea14340e6af35ac967
+Author: Nael Tee <ntahchi@page-experience.com>
+Date:   Wed Mar 25 13:42:50 2020 +0000
+
+    Revert "clean up login page"
+    
+    This reverts commit f28c7b3f09836cf6a5a279c35ca70370f2686456
+
+commit d59965e76e87d8c40e4618a6c7ec43a915e0bada
+Author: Nael Tee <ntahchi@page-experience.com>
+Date:   Wed Mar 25 13:42:28 2020 +0000
+
+    Revert "remove console.log"
+    
+    This reverts commit 9f7bce9ad794ff4ee9b731e6764b3749b039b17a
+
+commit f3d75c0dcad4175f7fca6fd71912b5a8218f60be
+Author: Nael Tee <ntahchi@page-experience.com>
+Date:   Wed Mar 25 13:41:17 2020 +0000
+
+    Revert "isApiSuccess handler"
+    
+    This reverts commit 4d3540561abdf3de3e7347f3aedf4100ed8b5ef5
+
+commit 3a96321ed69cac0deeb3578fdd882770d46a8b2a
+Author: Nael Tee <ntahchi@page-experience.com>
+Date:   Wed Mar 25 13:40:45 2020 +0000
+
+    Revert "login reducer"
+    
+    This reverts commit 12773673caca2df54c1029069acb97a4f13f849a
+
+commit 82f91eed68239041f9a453af15f7636b52fd3fd1
+Author: Nael Tee <ntahchi@page-experience.com>
+Date:   Wed Mar 25 13:39:25 2020 +0000
+
+    Revert "build api service"
+    
+    This reverts commit 3863dbc137ccbf34a041e80edf41dde17d6d3319
+
+commit f1d6ab753bf2e294f23385ce006dae45e8552ec4
+Author: Nael Tee <ntahchi@page-experience.com>
+Date:   Wed Mar 25 13:38:15 2020 +0000
+
+    Revert "seperate store"
+    
+    This reverts commit 5575d7053fb327ea4ff418bce11987ac85aeb7f7
+
+commit 456e4c223a1bf96520a623f8046a1e2d08bcb3ec
+Author: Nael Tee <ntahchi@page-experience.com>
+Date:   Wed Mar 25 13:37:29 2020 +0000
+
+    Revert "update file format"
+    
+    This reverts commit 45314cf4bf3f7691c4de2666b8b8b5a6184b9bdd
+
+commit 85143bf6a7fa791e2ac96ed66ec80935f03ba461
+Author: Nael Tee <ntahchi@page-experience.com>
+Date:   Wed Mar 25 13:36:51 2020 +0000
+
+    Revert "distinguish store creator"
+    
+    This reverts commit e61141e08fd1381a1ea3d210f1949fc3738b3937
+
+commit b75e5aaad106b6830da5264ccd7555b6c59e0597
+Author: Nael Tee <ntahchi@page-experience.com>
+Date:   Wed Mar 25 13:36:28 2020 +0000
+
+    Revert "update home page"
+    
+    This reverts commit f852ae8e9cff678ea3be92e167dc0bec3b64a1db
+
+commit 351df1f8c0a06f9bb487af881a0fb9a46ab0341d
+Author: Nael Tee <ntahchi@page-experience.com>
+Date:   Wed Mar 25 13:36:10 2020 +0000
+
+    Revert "clean up stepone"
+    
+    This reverts commit c9e5458940db5d4bdc3c408f0c3a9b6b75fe5746
+
+commit f852ae8e9cff678ea3be92e167dc0bec3b64a1db
+Author: ianperera <iperera@utreetek.com>
+Date:   Sat Mar 21 16:31:00 2020 -0400
+
+    update home page
+
+commit 45314cf4bf3f7691c4de2666b8b8b5a6184b9bdd
+Author: ianperera <iperera@utreetek.com>
+Date:   Sat Mar 21 16:21:10 2020 -0400
+
+    update file format
+
+commit 12773673caca2df54c1029069acb97a4f13f849a
+Author: ianperera <iperera@utreetek.com>
+Date:   Sat Mar 21 16:19:15 2020 -0400
+
+    login reducer
+
+commit c9e5458940db5d4bdc3c408f0c3a9b6b75fe5746
+Author: ianperera <iperera@utreetek.com>
+Date:   Sat Mar 21 16:17:40 2020 -0400
+
+    clean up stepone
+
+commit 9f7bce9ad794ff4ee9b731e6764b3749b039b17a
+Author: ianperera <iperera@utreetek.com>
+Date:   Sat Mar 21 15:16:14 2020 -0400
+
+    remove console.log
+
+commit 3396d0918ad695424cf9f2f2af6ce9e61543390b
+Author: ianperera <iperera@utreetek.com>
+Date:   Sat Mar 21 15:15:24 2020 -0400
+
+    account validation update
+
+commit 4d3540561abdf3de3e7347f3aedf4100ed8b5ef5
+Author: ianperera <iperera@utreetek.com>
+Date:   Sat Mar 21 15:14:39 2020 -0400
+
+    isApiSuccess handler
+
+commit 3863dbc137ccbf34a041e80edf41dde17d6d3319
+Author: ianperera <iperera@utreetek.com>
+Date:   Sat Mar 21 15:14:15 2020 -0400
+
+    build api service
+
+commit 5575d7053fb327ea4ff418bce11987ac85aeb7f7
+Author: ianperera <iperera@utreetek.com>
+Date:   Sat Mar 21 15:14:05 2020 -0400
+
+    seperate store
+
+commit ded9692f7bcd8d64586865ee57c89aa3bb871739
+Author: ianperera <iperera@utreetek.com>
+Date:   Fri Mar 20 23:08:20 2020 -0400
+
+    clean up sign up page
+
+commit f28c7b3f09836cf6a5a279c35ca70370f2686456
+Author: ianperera <iperera@utreetek.com>
+Date:   Fri Mar 20 23:07:15 2020 -0400
+
+    clean up login page
+
+commit e61141e08fd1381a1ea3d210f1949fc3738b3937
+Author: ianperera <iperera@utreetek.com>
+Date:   Fri Mar 20 23:06:43 2020 -0400
+
+    distinguish store creator
+
+commit 0d976f7044f275f6a36f90e3bff04cfdb99e9a3b
+Author: Harikrishnan <hari94@hotmail.com>
+Date:   Tue Mar 17 21:35:01 2020 +0530
+
+    Added post work and contribution overlays
+
+commit 38fcac7a6e5b422ac40439cb69b1acbfc613b75d
+Author: Harikrishnan <hari94@hotmail>
+Date:   Tue Mar 17 19:18:22 2020 +0530
+
+    Design changes in React post, promote post,content page and layout color change and icon changes
+
+commit e230cc46e1a26f78fc9b759830ec1646894c6bc5
+Author: Harikrishnan <hari94@hotmail.com>
+Date:   Mon Mar 9 21:33:55 2020 +0530
+
+    signup page design fixes
+
+commit 3329e5a715d0bf8dfd25387a8cdf85d83e55826c
+Author: Harikrishnan <hari94@hotmail.com>
+Date:   Sun Mar 8 10:27:54 2020 +0530
+
+    STYLE FIX: Changed the style in home page
+
+commit 37a6856cb1a996337ee99f87c71cb83d1f943823
+Author: Nika Abramishvili <nika@start-with.me>
+Date:   Sat Mar 7 02:21:12 2020 +0400
+
+    web changes
+
+commit f1b24669e01f69510db87cc519d5711c8c4d55d6
+Merge: 590c029 106856c
+Author: Nika Abramishvili <nika@start-with.me>
+Date:   Fri Mar 6 21:41:09 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    Develop
+    
+    See merge request page-x/pagex_web!5
+
+commit 106856c8d3149f0968d1ef2159536fcfbd1791d2
+Author: Nika Abramishvili <nika@start-with.me>
+Date:   Sat Mar 7 01:40:40 2020 +0400
+
+    fix project
+
+commit 599b869debac3988cd43fd6dd3c7b100b9523f20
+Author: Nika Abramishvili <nika@start-with.me>
+Date:   Sat Mar 7 01:15:02 2020 +0400
+
+    get env file
+
+commit 590c02974ad97cbe17549b07e0c600e4159a0aff
+Merge: 9960ad2 fe051aa
+Author: Nika Abramishvili <nika@start-with.me>
+Date:   Fri Mar 6 21:01:17 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    fix express-favicon
+    
+    See merge request page-x/pagex_web!4
+
+commit fe051aac19939eebf43a1a6313812db13fcd3e78
+Author: Nika Abramishvili <nika@start-with.me>
+Date:   Sat Mar 7 01:00:45 2020 +0400
+
+    fix express-favicon
+
+commit 9960ad2e05d86c848fa8a793f9a81e7d01e54408
+Merge: a68634d bca0290
+Author: Nika Abramishvili <nika@start-with.me>
+Date:   Fri Mar 6 20:41:10 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    fixes for build
+    
+    See merge request page-x/pagex_web!3
+
+commit bca0290893105267f98098425c5057b5cab41792
+Author: Nika Abramishvili <nika@start-with.me>
+Date:   Sat Mar 7 00:40:48 2020 +0400
+
+    fixes for build
+
+commit a68634d1fc3896a9041c136297c02301a8404185
+Merge: fdc3d80 9266376
+Author: Nika Abramishvili <nika@start-with.me>
+Date:   Fri Mar 6 20:28:12 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    port change
+    
+    See merge request page-x/pagex_web!2
+
+commit 92663769245fa45dd0b387b4fb4624ba4eb62e24
+Author: Nika Abramishvili <nika@start-with.me>
+Date:   Sat Mar 7 00:27:48 2020 +0400
+
+    port change
+
+commit fdc3d806c4f23025880588e89b5763d0334c9ac4
+Merge: 282f5dc e9c76cd
+Author: Nika Abramishvili <nika@start-with.me>
+Date:   Fri Mar 6 20:27:02 2020 +0000
+
+    Merge branch 'develop' into 'master'
+    
+    update gitlab ci, add ignore file
+    
+    See merge request page-x/pagex_web!1
+
+commit e9c76cd52875908de42a602426affe53a3d8676a
+Author: Nika Abramishvili <nika@start-with.me>
+Date:   Sat Mar 7 00:26:17 2020 +0400
+
+    update gitlab ci, add ignore file
+
+commit 282f5dcd44b74a343caf2a7c93b5dbcc1fb27338
+Author: Nika Abramishvili <nika@start-with.me>
+Date:   Fri Mar 6 22:46:11 2020 +0400
+
+    Initial Commit

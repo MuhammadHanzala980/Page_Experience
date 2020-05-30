@@ -1,0 +1,33 @@
+.explore-content-nav {
+    display: flex;
+}
+
+.explore-content-nav-column {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.explore-content-nav-item {
+    font-family: 'Roboto';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.explore-content-nav-item.col1 {
+    font-weight: bold;
+}
+
+.explore-content-nav-item.col2 {
+}
+
+.explore-content-nav-item.col3 {
+    color: blue;
+}
+
+.explore-content-nav-item {
+
+}
+
+.explore-content-nav-item.gray {
+    color: gray;
+}

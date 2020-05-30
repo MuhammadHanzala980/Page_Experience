@@ -1,0 +1,50 @@
+.modal {
+    width: 100%;
+    background: #fff;
+    max-width: 700px;
+    z-index: 13;
+    box-shadow: 0px 3px 30px #00000029;
+    border-radius: 20px;
+    color: #000;
+
+    .createJournal {
+        font-size: 1.1rem;
+        color: #1a73e8;
+        font-weight: bold;
+        span {
+            display: inline-block;
+            margin-left: 5px;
+            
+        }
+
+    }
+
+    .form {
+        display: flex;
+        padding: 0 10px;
+        justify-content: center;
+        .formGroup {
+            width: calc(50% - .5rem);
+            max-width: 300px;
+
+            &:not(:last-child) {
+                margin-right: .5rem;
+            }
+            label {
+                display: block;
+                text-align: left;
+                color: #6b6b6b;
+            }
+            input {
+                border: 2px solid #DDD;
+                padding: 5px 10px;
+                &:focus, &:hover {
+                    border: 2px solid #5e7afb;
+                    outline: none;
+                }
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}

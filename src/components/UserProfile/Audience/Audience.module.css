@@ -1,0 +1,34 @@
+.wrapper {
+  margin-top: 60px;
+}
+
+.avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+}
+
+.imgWithText {
+  text-align: center;
+}
+
+.imgWithText img {
+  display: block;
+  margin: 0 auto;
+}
+
+div.itemss {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 90px;
+}
+
+.avatar {
+  background-color: grey;
+}
+
+.caption {
+  display: block;
+  font-weight: 700;
+}

@@ -1,0 +1,148 @@
+.user-profile-infos {
+    position: relative;
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 170px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    background-size: 100% auto;
+}
+.user-profile-infos .profile-pic {
+    overflow: hidden;
+    position: relative;
+    flex-shrink: 0;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 14px;
+    width: 135px;
+    height: 135px;
+    margin-left: 26px;
+    margin-top: 0px;
+}
+.user-profile-infos .profile-pic .image{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.user-profile-infos .profile-pic button{
+    background-color: transparent;
+    border: none;
+    background-color: #00000008;
+    box-shadow: 0px 3px 6px #00000029;
+    padding: 4px 0px;
+    width:40px;
+    height: 30px;
+    text-align: center;
+    z-index: 10;
+    background-image: url(/icons/picture.png);
+    background-size: 100% 100%;
+}
+.user-profile-infos .items {
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.user-profile-infos .items .user-profile-item {
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+}
+
+.user-profile-infos .items .user-profile-item input {
+    font-family: 'Roboto';
+    width : 100%;
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    color :#232B2B ;
+    background-color: gray;
+}
+
+.user-profile-infos .items .location input{
+    padding: 5px 4px 5px 26px;
+    border-radius: 3px;
+    background-image: url(/icons/pointer.svg);
+    background-repeat: no-repeat;
+    background-position: 8px 50%;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #e3e3e3;
+    padding: 0px 0px 0px 14px;
+    border-radius: 3px;
+    background-image: url(/icons/pointer.svg);
+    background-repeat: no-repeat;
+    background-position: 1px 50%;
+    font-family: 'Roboto';
+    font-size: 11px;
+    font-weight: 600;
+}
+.user-profile-infos .items .user-profile-item input:disabled {
+    font-family: 'Roboto';
+    color :#232B2B ;
+    outline: none;
+    background-color: transparent;
+}
+.user-profile-infos .items .user-profile-item textarea {
+    font-size: 10px;
+    font-family: 'Roboto';
+    color: gray;
+    width : 100%;
+    background: transparent;
+    border: none;
+    /* outline: 1px solid gray; */
+    resize: none;
+    overflow: hidden;
+    text-align: justify;
+    display: table;
+    border-radius: 5px;
+    background-color: #e3e3e3;
+    color: #939393;
+}
+.user-profile-infos .items .user-profile-item textarea:disabled {
+    color: gray;
+    outline: none;
+    text-align: justify;
+    background-color: transparent;
+    color: #939393;
+}
+.user-profile-infos .controls{
+    position: absolute;
+    top: 18px;
+    right: 27px;
+    width: 200px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-start;
+    
+}
+
+.user-profile-infos .controls button {
+    background-color: transparent;
+    border: none;
+    border: 1px solid #00000029;
+    padding: 4px 20px;
+    margin-left: 5px;
+    box-shadow: 0px 3px 6px #00000029; 
+    width: 125px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.controls button:hover {
+  opacity: 0.9;
+  transition: 0.1s all;
+}

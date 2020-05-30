@@ -1,0 +1,40 @@
+.person {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    background: white;
+    border-radius: 5px;
+    margin: 10px 4px;
+    border-radius: 5px;
+    box-shadow: 1px 4px 5px 3px #0000004B;
+}
+.person .img{
+    width:60px;
+    height: 60px;
+    margin-right: 6px;
+    border-radius: 10px;
+    border: 1px solid #00000022;
+    background-size: 100% 100%;
+}
+.person .infos{
+    margin: 0;
+    padding: 0;
+}
+.person .infos .name{
+    font-weight: bold;
+    margin: 0;
+    color :#232B2B ;
+}
+.person .infos .passion{
+    margin: 0;
+    color:gray;
+}
+.person button{
+    background :#232B2B ;
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    margin-right: 2px;
+    border-radius: 5px;
+}

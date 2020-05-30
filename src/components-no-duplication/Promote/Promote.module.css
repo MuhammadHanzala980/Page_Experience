@@ -1,0 +1,102 @@
+.contributions .contribution {
+  background-color: #fff;
+  width:100%;
+}
+
+
+.contributions .contribution+.contribution {
+}
+
+.button {
+  background-color: #ddd;
+  border: none;
+  color: black;
+  padding: 3px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.contributions .contribution .header {
+  background-color: #fff;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.contributions .contribution .header .avatar {
+  margin-right: 30px;
+  border-radius: 12px;
+  width: 80px;
+  height: 80px;
+}
+
+.contributions .contribution .header .heading {
+  font-size: 20px;
+  margin-bottom: 5px;
+  margin: 0;
+}
+
+.contributions .contribution .header .ago {
+  color: #969ca2;
+  font-size: 15px;
+  margin: 0;
+}
+
+.contributions .contribution .desc {
+  padding: 35px 20px 20px;
+}
+
+.contributions .contribution .desc .fullDesc {
+  font-size: 15px;
+  line-height: 1.4;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #ddd;
+  margin-top: 0;
+}
+
+.contributions .contribution .desc .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contributions .contribution .desc .footer .stats {
+  color: #aaa;
+  font-size: 15px;
+}
+
+.contributions .contribution .desc .footer .stats>* {
+  padding-left: 30px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.contributions .contribution .desc .footer .stats>*+* {
+  margin-left: 20px;
+}
+
+.contributions .contribution .desc .footer .stats>*.views {
+  background-image: url('./img/icon-eye.png');
+}
+
+.contributions .contribution .desc .footer .stats>*.shares {
+  background-image: url('./img/icon-share.png');
+}
+
+.contributions .contribution .desc .footer .stats>*.comments {
+  background-image: url('./img/icon-comment.png');
+}
+
+.contributions .contribution .desc .footer .actions .action {
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contributions .contribution .desc .footer .actions .action+.action {
+  margin-left: 43px;
+}

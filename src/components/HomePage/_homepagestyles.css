@@ -1,0 +1,58 @@
+.search-field{
+    width:60% !important;
+    border-radius: 20px !important;
+    background-color: #fff !important;
+    border: 1px solid #f2f2f2 !important;
+}
+
+.inputgroup-wrapper{
+    width:100% !important;
+}
+
+.search-icon {
+    position: relative;
+    left: -50px;
+    height: 25px;
+    top: 7px;
+}
+.side-bar {
+    box-shadow: 1px 0px 2px #e6e6e6;
+    border-radius: 15px;
+    height: calc(100vh - 4rem);
+    position: fixed !important;
+}
+
+.side-bar .nav-link {
+    color:black;
+    font-weight: bold;
+}
+.side-bar .nav-link:hover {
+    color:#899EFF
+}
+.blog-heading  {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee6e6;
+    font-size: 20px;
+}
+.time-in-card{
+    font-size: 12px;
+    color: #b0a7a7;
+}
+.blog-card .card-header {
+    background: #ffffff !important;
+}
+.blog-card .card-body {
+    background: #e5eaff !important;
+}
+
+.cover-blur:after {
+    content: '';
+    display: block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2000;
+}

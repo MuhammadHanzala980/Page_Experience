@@ -1,0 +1,32 @@
+*{
+  font-family: 'Roboto'
+}
+.auth-page-btn {
+  background-color: #111111 !important;
+  border-color: #111111 !important;
+}
+.modal-header .close span {
+  color: #899eff;
+}
+
+.modal-wrapper-div {
+  height: 100% !important;
+  background: #635f5f29 0% 0% no-repeat padding-box;
+}
+.err-message {
+  color: #ec0b00;
+  font-size: 14px;
+}
+.spinner {
+  position: relative;
+  top: 7px;
+  left: 10px;
+}
+.spinner-bottom {
+  position: relative;
+  top: 7px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

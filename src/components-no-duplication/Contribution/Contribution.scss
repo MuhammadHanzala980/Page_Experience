@@ -1,0 +1,310 @@
+@import '../../Utils/mediaQueryManager.scss';
+
+.contributions {
+	max-width: 641px;
+	@include respond(md) {
+		margin: auto;
+
+	}
+}
+.contributions .contribution .contribution-header .actions .post-actions {
+	button {
+		background-color: transparent;
+		padding-bottom: 0;
+		color: #3b5eff;
+		border: none;
+		font-size: 1.2rem;
+		&:focus {
+			outline: none;
+			box-shadow: unset;
+		}
+		&:after {
+			display: none;
+		}
+	}
+}
+
+.contributions .contribution {
+	background-color: white;
+	border-radius: 5px;
+	width: 100%;
+	margin-bottom: 8px;
+}
+
+.contributions .contribution-clickable:hover {
+	background-color: #f1f1f1;
+	cursor: pointer;
+}
+
+.contributions .contribution .contribution-header {
+	padding: 7px;
+	display: flex;
+	align-items: center;
+}
+
+.contributions .contribution .contribution-header .space-holder {
+	flex-grow: 1;
+}
+.contributions .contribution .contribution-header .actions {
+	position: relative;
+	align-self: flex-start;
+	justify-self: flex-end;
+	flex-shrink: 0;
+	margin: 0;
+	padding: 0;
+}
+.contributions .contribution .contribution-header .actions .button {
+	font-size: 50px;
+	cursor: pointer;
+	line-height: 1px;
+}
+.contributions .contribution .contribution-header .actions .options {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 50px;
+	text-align: center;
+}
+.contributions .contribution .contribution-header .actions .options .option {
+	border-radius: 5px;
+	line-height: auto;
+	border: 1px solid #00000011;
+	font-size: 12;
+	margin: 3px;
+	width: 100%;
+	/* background-color: whitesmoke; */
+	cursor: pointer;
+	user-select: none;
+	background-color: white;
+}
+
+.contributions .contribution .contribution-header .avatar {
+	border: 1px solid #00000011;
+	border-radius: 10px;
+	width: 60px;
+	height: 60px;
+	margin: 0 10px 0 5px;
+	cursor: pointer;
+}
+
+.contributions .contribution .contribution-header .heading {
+	font-size: 16px;
+	margin-bottom: 5px;
+	font-family: 'Roboto';
+	font-weight: bold;
+	margin: 0;
+	cursor: pointer;
+}
+
+.contributions .contribution .contribution-header .ago {
+	/* color: #969ca2; */
+	font-size: 13px;
+	margin: 0;
+}
+
+.contributions .contribution .desc {
+	/* background: linear-gradient(0deg,#fff 0%, #eee 20%, #fefefe 100%); */
+	/* background: #f8f9ff; */
+	padding: 0px 20px;
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+}
+
+.contributions .contribution .desc .post-pic {
+	width: 90%;
+	height: 270px;
+	margin-left: 5%;
+	border-radius: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+.contributions .contribution .desc .post-pic .post-pic-img {
+	background-color: #00000022;
+	width: 100%;
+	height: 100%;
+	border-radius: 20px;
+	position: absolute;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: center center;
+	/* filter: blur(3px); */
+	cursor: pointer;
+}
+
+.contributions .contribution .desc .post-pic .loadImage {
+	z-index: 10;
+	color: white;
+	background: #00000099;
+	border-radius: 10px;
+	padding: 2px 10px;
+	font-weight: bold;
+	border: 1px solid #ffffff;
+	cursor: pointer;
+	user-select: none;
+}
+.contributions .contribution .desc .fullDesc {
+	font-size: 24px;
+	line-height: 1.4;
+	font-family: 'Roboto';
+	margin: 0;
+	margin-left: 60px;
+	@include respond(xs) {
+		margin-left: 10px;
+		text-align: left;
+	}
+	text-align: justify;
+}
+.contributions .contribution .desc .tags {
+	margin: 0;
+	padding: 0;
+	/* border-bottom: 1px solid #ddd; */
+	margin-bottom: 10px;
+	color: #1b95e0;
+	cursor: pointer;
+}
+
+.contributions .contribution .desc .tags:hover {
+	text-decoration: underline;
+}
+
+.contributions .artform-tag {
+	margin-left: 5px ;
+	margin-bottom: 10px;
+	text-align: right;
+	span {
+		text-transform: capitalize;
+		border: 1px solid #5f7cfd;
+		font-weight: bold;
+		font-size: .7rem;
+		padding: 2px 8px;
+		border-radius: 3px;
+		color: #5e7afb;
+		display: inline-block;
+	}
+	&--parent {
+			text-align: right;
+			margin: 0;
+			margin-right: 20px;
+	}
+
+}
+.contributions .contribution .desc .footer {
+	display: flex;
+	justify-content: space-between;
+}
+
+.contributions .contribution .desc .footer .stats {
+	color: #aaa;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.contributions .contribution .desc .footer .stats > * {
+	padding-left: 30px;
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+
+.contributions .contribution .desc .footer .stats > * + * {
+	margin-left: 20px;
+}
+
+.contributions .contribution .desc .footer .stats > *.views {
+	background-image: url('./img/icon-eye.png');
+}
+
+.contributions .contribution .desc .footer .stats > *.shares {
+	background-image: url('./img/icon-share.png');
+}
+
+.contributions .contribution .desc .footer .stats > *.comments {
+	background-image: url('./img/icon-comment.png');
+}
+.contributions .contribution .desc .footer .actions {
+	width: 100%;
+	display: flex;
+	margin-top: 10px;
+	justify-content: space-around;
+}
+.contributions .contribution .desc .footer .actions .action {
+	font-size: 15px;
+	font-weight: 700;
+	cursor: pointer;
+	padding-bottom: 30px;
+}
+
+.contributions .contribution .desc .footer .actions .action + .action {
+	margin-left: 43px;
+}
+
+.description-editor {
+	width: 100%;
+	height: 100%;
+	font-size: 24px;
+	line-height: 1.4;
+	margin: 0;
+	text-align: justify;
+}
+
+.description-editor-wrapper {
+	margin-left: 60px;
+}
+
+.btn-save {
+	width: 100px;
+	height: 31px;
+	border: none;
+	background: #000000;
+	color: #fff;
+	box-shadow: 0px 3px 2px #00000029;
+	font-size: 13px;
+	border-radius: 21px;
+	cursor: pointer;
+}
+
+.parentContent {
+	border: 1px solid gray;
+	border-radius: 20px;
+	padding: 10px;
+}
+
+.parentContent:hover {
+	background-color: #e0e0e0;
+}
+
+.contributions .contribution .desc .parentContent .fullDesc {
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 18px;
+}
+
+.contributions .contribution .contribution-header.small .ago {
+	font-size: 9px;
+}
+
+.contributions .contribution .contribution-header.small .heading {
+	font-size: 10px;
+	margin-bottom: 3px;
+}
+
+.contributions .contribution .contribution-header.small .avatar {
+	width: 30px;
+	height: 30px;
+}
+.contributions .contribution .contribution-header.small .artform-tag {
+	span {
+		font-size: .6rem;
+	}
+}
+
+.contributions .contribution .contribution-header.small {
+	padding: 3px;
+}
+
+.headline {
+	color: gray;
+	font-weight: normal;
+}

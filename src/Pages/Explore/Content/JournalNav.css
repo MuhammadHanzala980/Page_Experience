@@ -1,0 +1,8 @@
+.explore-journal-nav div {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.explore-journal-nav-back {
+    cursor: pointer;
+}

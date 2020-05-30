@@ -1,0 +1,36 @@
+cache:
+  paths:
+    - node_modules/
+
+stages:
+  - deploy
+
+deploy_dev:
+  stage: deploy
+  only:
+    - develop
+  script:
+    - DEV_HOME="/var/www/dev_pagex_web/";
+    - PATH=${PATH}:/usr/local/bin
+    - if [ ! -d $DEV_HOME ]; then exit 1; fi
+    - cp ${DEV_HOME}/.env .env
+    - cat .env
+    - npm install
+    - npm run build
+    - rsync -arp  --exclude-from='.rsync_excludes' . ${DEV_HOME}
+    - pm2 restart web
+
+deploy_prod:
+  stage: deploy
+  only:
+    - master
+  script:
+    - DEV_HOME="/var/www/pagex_web/";
+    - PATH=${PATH}:/usr/local/bin
+    - if [ ! -d $DEV_HOME ]; then exit 1; fi
+    - cp ${DEV_HOME}/.env .env
+    - cat .env
+    - npm install
+    - npm run build
+    - rsync -arp  --exclude-from='.rsync_excludes' . ${DEV_HOME}
+    - sh /var/www/rsync/web.sh

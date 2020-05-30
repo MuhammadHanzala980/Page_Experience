@@ -1,0 +1,165 @@
+.home {
+  width: 70%;
+}
+
+.home .header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 95px;
+}
+
+.home .header .userArea {
+  display: flex;
+}
+
+.home .header .userArea .create {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  background-color: #fff;
+  border: 2px solid #283880;
+  color: #283880;
+  font-size: 40px;
+  line-height: 30px;
+  text-align: center;
+  margin-right: 20px;
+  cursor: pointer;
+  width: 40px;
+  transition: width 0.4s;
+  position: relative;
+  overflow: hidden;
+}
+
+.home .header .userArea .create .caption {
+  position: absolute;
+  top: 2px;
+  left: 20px;
+  font-size: 24px;
+  line-height: 34px;
+  opacity: 0;
+  transition: opacity 0.4s;
+}
+
+.home .header .userArea .create .plus {
+  position: absolute;
+  top: 2px;
+  right: 6px;
+  line-height: 32px;
+}
+
+.home .header .userArea .create:hover {
+  width: 140px;
+}
+
+.home .header .userArea .create:hover .caption {
+  opacity: 1;
+}
+
+.home .header .userArea img {
+  border-radius: 50%;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #5cdefd;
+}
+
+.home .mainWrapper {
+  display: flex;
+}
+
+.home .mainWrapper .mainData {
+  margin-top: 35px;
+  width: 100%;
+}
+
+.home .mainWrapper .mainData .topInfo {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 35px;
+  border-bottom: 1px solid #ccc;
+}
+
+.home .mainWrapper .mainData .topInfo .avatar {
+  margin-right: 20px;
+  border-radius: 38px;
+  width: 130px;
+  height: 130px;
+  object-fit: cover;
+  border: 1px solid #00000011;
+  flex-shrink: 0;
+}
+
+.home .mainWrapper .mainData .topInfo .desc {
+  
+}
+
+.home .mainWrapper .mainData .topInfo .desc .name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.home .mainWrapper .mainData .topInfo .desc  .specialization {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.home .mainWrapper .mainData .topInfo .desc .fullText {
+  line-height: 1.4;
+  font-size: 14px;
+  margin: 5px;
+  color: gray;
+}
+
+.home .mainWrapper .mainData .topInfo .desc .place {
+  display: table;
+  padding: 5px 4px 5px 26px;
+  border-radius: 50px;
+  background-image: url(/static/media/pointer.76478627.svg);
+  background-repeat: no-repeat;
+  background-position: 8px 50%;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.home .mainWrapper .mainData .subSections {
+  margin-top: 40px;
+}
+
+.home .mainWrapper .mainData .subSections .topRow {
+  display: flex;
+}
+
+.home .mainWrapper .mainData .subSections .topRow .sectionsSidebar {
+  font-size: 20px;
+  font-weight: 700;
+  list-style-type: none;
+  text-decoration: none;
+  width: 210px;
+  flex-shrink: 0;
+}
+
+.home .mainWrapper .mainData .subSections .topRow .sectionsSidebar li+li {
+  margin-top: 15px;
+}
+
+.home .mainWrapper .mainData .subSections .topRow .sectionsSidebar .item.active,
+.home .mainWrapper .mainData .subSections .topRow .sectionsSidebar .item:hover {
+  color: #333;
+}
+
+.home .mainWrapper .recommended {
+  width: 300px;
+  flex-shrink: 0;
+  margin-left: 110px;
+}
+
+.home .mainWrapper .recommended .heading {
+  font-size: 28px;
+}
+.home .mainWrapper .mainData .subSections .topRow .content{
+  flex-grow: 1;
+}

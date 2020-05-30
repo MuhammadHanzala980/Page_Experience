@@ -1,0 +1,98 @@
+.contributions .contribution {
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid #eee;
+}
+
+.contributions .contribution .header {
+  background-color: #fff;
+  padding: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.contributions .contribution .header .avatar {
+  border: 1px solid #00000011;
+  border-radius: 20px;
+  width: 60px;
+  height: 60px;
+  margin: 0 5px;
+}
+
+.contributions .contribution .header .heading {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  margin: 0;
+}
+
+.contributions .contribution .header .ago {
+  color: #969ca2;
+  font-size: 13px;
+  margin: 0;
+}
+
+.contributions .contribution .desc {
+  /* background: linear-gradient(0deg,#fff 0%, #eee 20%, #fefefe 100%); */
+  background: #f8f9ff;
+  padding: 35px 20px;
+  margin: 0;
+}
+
+.contributions .contribution .desc .fullDesc {
+  font-size: 24px;
+  line-height: 1.4;
+  font-family: 'Roboto';
+  margin:0;
+}
+.contributions .contribution .desc .tags {
+  margin:0;
+  padding: 0;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 10px;
+  color: #1b95e0;
+}
+
+.contributions .contribution .desc .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contributions .contribution .desc .footer .stats {
+  color: #aaa;
+  font-size: 14px;
+}
+
+.contributions .contribution .desc .footer .stats>* {
+  padding-left: 30px;
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.contributions .contribution .desc .footer .stats>*+* {
+  margin-left: 20px;
+}
+
+.contributions .contribution .desc .footer .stats>*.views {
+  background-image: url('./img/icon-eye.png');
+}
+
+.contributions .contribution .desc .footer .stats>*.shares {
+  background-image: url('./img/icon-share.png');
+}
+
+.contributions .contribution .desc .footer .stats>*.comments {
+  background-image: url('./img/icon-comment.png');
+}
+
+.contributions .contribution .desc .footer .actions .action {
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.contributions .contribution .desc .footer .actions .action+.action {
+  margin-left: 43px;
+}
